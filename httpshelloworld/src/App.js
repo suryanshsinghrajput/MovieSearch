@@ -67,7 +67,7 @@ if(post==null)
       <h1 className="mb-4">{stringloaded}</h1>   
       {/* <button className="btn btn-primary" onClick={callNASAAPI}>call API</button> */}
       <button className="btn btn-primary" onClick={resetAPI}>resetAPI</button>
-
+      
       <p>{post.date}</p>
       <img src={post.hdurl} className="img-fluid" alt="..."></img>
       <hr></hr>
