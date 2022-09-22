@@ -48,6 +48,7 @@ then, enable it.
 # Output - basics
 
 ```
+    npm install
     npm run dev
 ```
 
