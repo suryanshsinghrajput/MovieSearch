@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className="text-center hero my-5">
-        {/* <SearchandShowComponent/> */}
+        <SearchandShowComponent/>
         <ShowReturningMoviesComponent/>
         <Phase4NASAComponent />
       </div>

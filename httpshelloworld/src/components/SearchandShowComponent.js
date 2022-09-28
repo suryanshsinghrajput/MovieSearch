@@ -68,7 +68,7 @@ const SearchandShowComponent = () => {
     return moviething;
     }      
 
-    useEffect(() => {
+    useEffect(() => { 
 
         console.log(quoteContent);
         setquoteContentMimic(quoteContent);
@@ -76,7 +76,7 @@ const SearchandShowComponent = () => {
 
         if(quoteContent.length === 0)
         {
-            let someMessage = `You have not yet typed anything. Type something`;
+            let someMessage = `Type something`;
             setquoteContentMimic(someMessage);
         }        
     }, [quoteContent,quoteContentMimic]);    
@@ -94,7 +94,7 @@ const SearchandShowComponent = () => {
                 <input
                     type="text"
                     className="form-control"
-                    placeholder="enter anything you want"
+                    placeholder="ENTER MOVIE NAME HERE"
                     onChange={e => setquoteContent(e.target.value)}
                     value={quoteContent}
                 />
