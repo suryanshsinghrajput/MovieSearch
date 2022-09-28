@@ -101,7 +101,7 @@ const SearchandShowComponent = () => {
                 <p>You are typing : {quoteContentMimic}</p>
             </div>
         </div>
-        <button className="btn btn-primary" onClick={callMOVIEAPI}>call API</button>
+        <button className="btn btn-primary"  onClick={callMOVIEAPI}>call API</button>
         <img src={localAntEaterImage} className="img-fluid" alt="..."></img>
         <h5>This is the Search and Show Component - Ending.</h5>
         </div>
