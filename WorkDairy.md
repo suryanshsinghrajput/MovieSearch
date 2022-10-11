@@ -5,6 +5,14 @@ i started this project.
 
 This is a work diary of this project. 
 
+October 9th 2022
+
+And now we are in phase 11.
+add essential libraries.
+
+1. local storage 
+1. react router dom
+
 October 8th 2022
 Game Plan :
 
