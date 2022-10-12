@@ -72,6 +72,10 @@ const LoginComponent = () => {
         setgoogleloggedin(false);
   
         setfbloggedin(true);
+
+        //locally storage login status
+        localStorage.set('fbloginstatus',fbloggedin);
+        localStorage.set('googleloginstatus',googleloggedin);
   
       }
       else
@@ -88,6 +92,9 @@ const LoginComponent = () => {
       console.log(image);
       console.log(googleloggedin);
       console.log(fbloggedin);
+
+      //local storage related things
+      
   
     }, [loggedin, userData, userDataprofileObj, userDatatokenObj,image,googleloggedin,fbloggedin]);
 
@@ -114,7 +121,7 @@ const LoginComponent = () => {
           <hr></hr>
           < FacebookLogin
               appId={fbconfig.appID}
-              autoLoad={true}
+              // autoLoad={true}
               fields="name,email,picture"
               callback={responseFacebook}
               cssClass="my-facebook-button-class"
