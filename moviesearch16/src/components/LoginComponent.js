@@ -75,7 +75,7 @@ const LoginComponent = () => {
 
         //locally storage login status
         localStorage.set('fbloginstatus',fbloggedin);
-        localStorage.set('goggleloginstatus',googleloggedin);
+        localStorage.set('googleloginstatus',googleloggedin);
   
       }
       else
