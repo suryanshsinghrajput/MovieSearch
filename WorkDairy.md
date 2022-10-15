@@ -13,6 +13,39 @@ add essential libraries.
 1. local storage 
 1. react router dom
 
+libraries are added.
+
+next
+
+react router dom hello world. Different links and showing different things.
+https://medium.com/projectwt/create-react-app-hello-world-2022-edition-f36275a0e7c4
+
+bootstrap is already added. that' good.
+
+we have this.
+
+
+    ERROR in ./src/components/Home.js 4:0-46
+
+so, routing is done.
+
+next,
+
+facebook automatically logs in. If possible, we should stop this behavior.
+react-facebook-login
+
+https://github.com/keppelen/react-facebook-login
+
+removed this line.
+
+
+    autoLoad={true}
+
+after logging in, on another tab, we should automatically detect and show user details. DONE.
+next
+
+more featuers.
+ 
 October 8th 2022
 Game Plan :
 
