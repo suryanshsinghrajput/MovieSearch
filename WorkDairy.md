@@ -45,7 +45,7 @@ after logging in, on another tab, we should automatically detect and show user d
 next
 
 more featuers.
-cpmplete
+completed
  
 October 8th 2022
 Game Plan :
